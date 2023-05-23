@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-23T10:41:30 IST" name="Suite" finished-at="2023-05-23T10:43:10 IST" duration-ms="100657">
+    <groups>
+    </groups>
+    <test started-at="2023-05-23T10:41:30 IST" name="Test" finished-at="2023-05-23T10:43:10 IST" duration-ms="100657">
+      <class name="testNGAnnotations.GoogleSearchTestCase">
+        <test-method is-config="true" signature="propertyMetgod()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:41:30 IST" name="propertyMetgod" finished-at="2023-05-23T10:41:30 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- propertyMetgod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:41:30 IST" name="setUp" finished-at="2023-05-23T10:41:55 IST" duration-ms="25464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search1()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:41:55 IST" name="search1" finished-at="2023-05-23T10:42:14 IST" duration-ms="18987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:42:14 IST" name="tearDown" finished-at="2023-05-23T10:42:17 IST" duration-ms="2521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:42:17 IST" name="setUp" finished-at="2023-05-23T10:42:24 IST" duration-ms="7489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search2()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:42:24 IST" name="search2" finished-at="2023-05-23T10:42:34 IST" duration-ms="9918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:42:34 IST" name="tearDown" finished-at="2023-05-23T10:42:36 IST" duration-ms="2323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:42:36 IST" name="setUp" finished-at="2023-05-23T10:42:58 IST" duration-ms="22163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search3()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:42:58 IST" name="search3" finished-at="2023-05-23T10:43:08 IST" duration-ms="9200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:43:08 IST" name="tearDown" finished-at="2023-05-23T10:43:10 IST" duration-ms="2485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGAnnotations.GoogleSearchTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
