@@ -1,53 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[login performed!!]]>
+    </line>
+    <line>
+      <![CDATA[User Created!!]]>
+    </line>
+    <line>
+      <![CDATA[logOut performed!!]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-05-23T10:41:30 IST" name="Suite" finished-at="2023-05-23T10:43:10 IST" duration-ms="100657">
+  <suite started-at="2023-05-26T14:05:01 IST" name="Default suite" finished-at="2023-05-26T14:05:01 IST" duration-ms="151">
     <groups>
     </groups>
-    <test started-at="2023-05-23T10:41:30 IST" name="Test" finished-at="2023-05-23T10:43:10 IST" duration-ms="100657">
-      <class name="testNGAnnotations.GoogleSearchTestCase">
-        <test-method is-config="true" signature="propertyMetgod()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:41:30 IST" name="propertyMetgod" finished-at="2023-05-23T10:41:30 IST" duration-ms="13" status="PASS">
+    <test started-at="2023-05-26T14:05:01 IST" name="Default test" finished-at="2023-05-26T14:05:01 IST" duration-ms="151">
+      <class name="testNGFlags.Flag5DependsOn">
+        <test-method signature="loginmethod()[pri:0, instance:testNGFlags.Flag5DependsOn@61386958]" started-at="2023-05-26T14:05:01 IST" name="loginmethod" description="Login TestCase" finished-at="2023-05-26T14:05:01 IST" duration-ms="37" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[login performed!!]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- propertyMetgod -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:41:30 IST" name="setUp" finished-at="2023-05-23T10:41:55 IST" duration-ms="25464" status="PASS">
+        </test-method> <!-- loginmethod -->
+        <test-method signature="createuser()[pri:0, instance:testNGFlags.Flag5DependsOn@61386958]" started-at="2023-05-26T14:05:01 IST" name="createuser" description="CreateUser TestCase" finished-at="2023-05-26T14:05:01 IST" depends-on-methods="testNGFlags.Flag5DependsOn.loginmethod" duration-ms="2" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[User Created!!]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="search1()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:41:55 IST" name="search1" finished-at="2023-05-23T10:42:14 IST" duration-ms="18987" status="PASS">
+        </test-method> <!-- createuser -->
+        <test-method signature="logoutmethod()[pri:0, instance:testNGFlags.Flag5DependsOn@61386958]" started-at="2023-05-26T14:05:01 IST" name="logoutmethod" description="LogOut TestCase" finished-at="2023-05-26T14:05:01 IST" depends-on-methods="testNGFlags.Flag5DependsOn.createuser" duration-ms="4" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[logOut performed!!]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- search1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:42:14 IST" name="tearDown" finished-at="2023-05-23T10:42:17 IST" duration-ms="2521" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:42:17 IST" name="setUp" finished-at="2023-05-23T10:42:24 IST" duration-ms="7489" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="search2()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:42:24 IST" name="search2" finished-at="2023-05-23T10:42:34 IST" duration-ms="9918" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:42:34 IST" name="tearDown" finished-at="2023-05-23T10:42:36 IST" duration-ms="2323" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:42:36 IST" name="setUp" finished-at="2023-05-23T10:42:58 IST" duration-ms="22163" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="search3()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:42:58 IST" name="search3" finished-at="2023-05-23T10:43:08 IST" duration-ms="9200" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGAnnotations.GoogleSearchTestCase@6babf3bf]" started-at="2023-05-23T10:43:08 IST" name="tearDown" finished-at="2023-05-23T10:43:10 IST" duration-ms="2485" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testNGAnnotations.GoogleSearchTestCase -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- logoutmethod -->
+      </class> <!-- testNGFlags.Flag5DependsOn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
